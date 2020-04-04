@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/welcome/welcome"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#A9CDD6",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "余声"
+  }
+}

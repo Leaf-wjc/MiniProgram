@@ -1,0 +1,71 @@
+/* pages/home/home.wxss */
+page{
+  height: 100%;
+  background-color: #F6F6F6;
+}
+swiper.banner-container{
+  height: 420rpx;
+}
+swiper.banner-container image{
+  width: 100%;
+  height: 420rpx;
+}
+.section-container{
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx 0;
+  padding-bottom: 10rpx;
+  border-bottom: 1px solid #cdcdcd;
+}
+.author-data{
+  padding: 10rpx 0 20rpx 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.author-avatar{
+  width: 60rpx;
+  height: 60rpx;
+}
+.author-date{
+  margin-left: 20rpx;
+  font-size: 26rpx;
+  /* vertical-align: middle; */
+}
+.article-tit{
+  display: block;
+  margin: 0 0 20rpx 20rpx;
+  font-weight: bold;
+  font-size: 34rpx;
+  color:#333;
+}
+.article-img{
+  width: 100%;
+  height: 420rpx;
+  margin-bottom: 3px;
+}
+.article-content{
+  color:#666;
+  letter-spacing: 2rpx;
+  font-size: 28rpx;
+  display: block;
+  margin: 0 10rpx 20rpx 10rpx;
+  text-indent: 56rpx;
+  text-align: justify;
+}
+.like-container{
+  font-size: 26rpx;
+  margin-left: 20rpx;
+  color: #666;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.like-container image{
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 12rpx;
+}
+.like-container text{
+  margin-right: 24rpx;
+}

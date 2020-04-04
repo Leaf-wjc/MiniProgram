@@ -1,0 +1,64 @@
+<!--pages/home/home.wxml-->
+<view>
+	<!-- home页面轮播图 END-->
+	<swiper class="banner-container" indicator-dots="true" indicator-color="rgb(206, 213, 224)" indicator-active-color="rgb(49, 171, 161)" autoplay="true">
+		<swiper-item>
+			<image src="/images/swiper/swipper1.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="/images/swiper/swipper2.jpg"></image>
+		</swiper-item>
+		<swiper-item>
+			<image src="/images/swiper/swipper3.jpg"></image>
+		</swiper-item>
+	</swiper>
+	<!-- home页面轮播图 END-->
+	<!-- 文章列表 START -->
+	<view class="section-container">
+		<!-- 作者信息 START -->
+		<view class="author-data">
+			<image src="/images/author/author1.png" class="author-avatar"></image>
+			<text class="author-date">Sep 18 2016</text>
+		</view>
+		<!-- 作者信息 END -->
+		<!-- 文章 START -->
+		<view class="article-container">
+			<text class="article-tit">千与千寻:记忆重庆·没有森林</text>
+			<image src="/images/article/article1.jpg" class="article-img"></image>
+			<text class="article-content">虽然锦城与山城一家亲,第一次完整的拥入她还是在两年前的初夏；网络上重庆的魔幻名气伊始，千与千寻的画面感让越来越多的人心驰神往，除了这些，最好体验给我的还有满城的烟火气，路边摊的小面与九宫格的火锅香~~~</text>
+		</view>
+		<!-- 文章 END -->
+		<!-- 收藏+喜欢 START -->
+		<view class="like-container">
+			<image src="../../images/icon/collect.png"></image>
+			<text>96</text>
+			<image src="../../images/icon/look.png"></image>
+			<text>142</text>
+		</view>
+		<!-- 收藏+喜欢 END -->
+	</view>
+		<view class="section-container">
+		<!-- 作者信息 START -->
+		<view class="author-data">
+			<image src="/images/author/author1.png" class="author-avatar"></image>
+			<text class="author-date">Sep 18 2016</text>
+		</view>
+		<!-- 作者信息 END -->
+		<!-- 文章 START -->
+		<view class="article-container">
+			<text class="article-tit">Switch:给你更多可能</text>
+			<image src="/images/article/article2.jpg" class="article-img"></image>
+			<text class="article-content">Joy-Con是Switch主机的游戏手柄，它是可拆分的。拆分后，由原来的掌上模式变成电视模式或桌面模式。一机三用，可玩性相当高。早就2006年Wii发布的时候，就已经有体感手柄，但是长期玩体感很容易疲劳；到了2011年改善版WiiU登场，采用了两块屏幕，掌机的屏幕又得不到充分利用~~~</text>
+		</view>
+		<!-- 文章 END -->
+		<!-- 收藏+喜欢 START -->
+		<view class="like-container">
+			<image src="../../images/icon/collect.png"></image>
+			<text>246</text>
+			<image src="../../images/icon/look.png"></image>
+			<text>999+</text>
+		</view>
+		<!-- 收藏+喜欢 END -->
+	</view>
+	<!-- 文章列表 END -->
+</view>
