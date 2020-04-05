@@ -1,4 +1,5 @@
 <!--pages/home/home.wxml-->
+<import src="../data-item/data-item-template.wxml"/>
 <view>
 	<!-- home页面轮播图 END-->
 	<swiper class="banner-container" indicator-dots="{{true}}" indicator-color="rgb(206, 213, 224)" indicator-active-color="rgb(49, 171, 161)" autoplay="{{true}}">
@@ -13,31 +14,10 @@
 		</swiper-item>
 	</swiper>
 	<!-- home页面轮播图 END-->
-	<block wx:for="{{article_list_data}}" wx:for-item="item">
+	<block wx:for="{{homeData}}" wx:for-item="item">
 		<!-- 文章列表 START -->
-		<view class="section-container">
-			<!-- 作者信息 START -->
-			<view class="author-data">
-				<image src="{{item.author_img}}" class="author-avatar"></image>
-				<text class="author-date" wx:if="{{item.text_condition}}">{{item.author_date}}</text>
-			</view>
-			<!-- 作者信息 END -->
-			<!-- 文章 START -->
-			<view class="article-container">
-				<text class="article-tit">{{item.article_tit}}</text>
-				<image src="{{item.article_img}}" class="article-img"></image>
-				<text class="article-content">{{item.article_content}}</text>
-			</view>
-			<!-- 文章 END -->
-			<!-- 收藏+喜欢 START -->
-			<view class="like-container">
-				<image src="../../images/icon/collect.png"></image>
-				<text>{{item.collect_num}}</text>
-				<image src="../../images/icon/look.png"></image>
-				<text>{{item.look_num}}</text>
-			</view>
-			<!-- 收藏+喜欢 END -->
-		</view>
+		<!-- template -->
+			<template is="dataItem" data="{{item}}" />
 		<!-- 文章列表 END -->
 	</block>
 
