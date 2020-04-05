@@ -2,23 +2,23 @@
 	<view class="section-container">
 		<!-- 作者信息 START -->
 		<view class="author-data">
-			<image src="{{item.author_img}}" class="author-avatar"></image>
-			<text class="author-date">{{item.author_date}}</text>
+			<image src="{{author_img}}" class="author-avatar"></image>
+			<text class="author-date">{{author_date}}</text>
 		</view>
 		<!-- 作者信息 END -->
 		<!-- 文章 START -->
 		<view class="article-container">
-			<text class="article-tit">{{item.article_tit}}</text>
-			<image src="{{item.article_img}}" class="article-img"></image>
-			<text class="article-content">{{item.article_content}}</text>
+			<text class="article-tit">{{article_tit}}</text>
+			<image src="{{article_img}}" class="article-img"></image>
+			<text class="article-content">{{article_content}}</text>
 		</view>
 		<!-- 文章 END -->
 		<!-- 收藏+喜欢 START -->
 		<view class="like-container">
 			<image src="../../images/icon/collect.png"></image>
-			<text>{{item.collect_num}}</text>
+			<text>{{collect_num}}</text>
 			<image src="../../images/icon/look.png"></image>
-			<text>{{item.reading_num}}</text>
+			<text>{{reading_num}}</text>
 		</view>
 		<!-- 收藏+喜欢 END -->
 	</view>

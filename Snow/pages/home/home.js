@@ -14,5 +14,12 @@ Page({
     // this.setData({ article_list_data })ES6的语法
     // this.setData9({article_list_data})等同于下面的写法
     this.setData({homeData:requireData.homeList})
+  },
+  onDetailTap: function (event) {//详情跳转方法
+    var newsId = event.currentTarget.dataset.listid;
+    wx.navigateTo({
+      url: '../news-detail/news-detail',
+    })
+    console.log(newsId);
   }
 })

@@ -1,23 +1,25 @@
 <!--pages/home/home.wxml-->
-<import src="../data-item/data-item-template.wxml"/>
+<import src="../data-item/data-item-template.wxml" />
 <view>
-	<!-- home页面轮播图 END-->
+	<!-- home页面轮播图 START-->
 	<swiper class="banner-container" indicator-dots="{{true}}" indicator-color="rgb(206, 213, 224)" indicator-active-color="rgb(49, 171, 161)" autoplay="{{true}}">
 		<swiper-item>
-			<image src="/images/swiper/swipper1.jpg"></image>
+			<image src="../../images/article/article3.jpeg"></image>
 		</swiper-item>
 		<swiper-item>
-			<image src="/images/swiper/swipper2.jpg"></image>
+			<image src="../../images/article/article1.jpg"></image>
 		</swiper-item>
 		<swiper-item>
-			<image src="/images/swiper/swipper3.jpg"></image>
+			<image src="../../images/article/article2.jpg"></image>
 		</swiper-item>
 	</swiper>
 	<!-- home页面轮播图 END-->
 	<block wx:for="{{homeData}}" wx:for-item="item">
 		<!-- 文章列表 START -->
 		<!-- template -->
-			<template is="dataItem" data="{{item}}" />
+		<view catchtap="onDetailTap" data-listId="{{item.newsId}}">
+			<template is="dataItem" data="{{...item}}" />
+		</view>
 		<!-- 文章列表 END -->
 	</block>
 

@@ -1,0 +1,20 @@
+<view>
+	<image src="../../images/article/article3.jpeg" class="head-pic"></image>
+	<view class="author-info">
+		<image src="../../images/author/author3.jpeg" class="author-avatar"></image>
+		<text class="author-name">Author</text>
+		<text>发表于</text>
+		<text>24小时前</text>
+	</view>
+	<text class="article-tit">文章标题</text>
+	<view class="wrpa">
+		<view class="share-contianer">
+			<image src="../../images/icon/collection-detail.png"></image>
+			<image src="../../images/icon/share-detail.png"></image>
+		</view>
+		<view></view>
+	</view>
+	<text>
+	这里是文章内容
+	</text>
+</view>
