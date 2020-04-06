@@ -1,19 +1,19 @@
-<view>
-	<image src="../../images/article/article3.jpeg" class="head-pic"></image>
+<view class="container">
+	<image src="{{detailData.headImgSrc}}" class="head-pic"></image>
 	<image src="../../images/icon/audio.png" class="audio"></image>
 	<view class="author-info">
-		<image src="../../images/author/author3.jpeg" class="author-avatar"></image>
-		<text class="author-name">Author</text>
+		<image src="{{detailData.author_img}}" class="author-avatar"></image>
+		<text class="author-name">{{detailData.author_name}}</text>
 		<text>发表于</text>
-		<text>24小时前</text>
+		<text>{{detailData.dateTime}}</text>
 	</view>
-	<text class="article-tit">文章标题</text>
+	<text class="article-tit">{{detailData.article_tit}}</text>
 	<view class="wrap">
 		<view class="share-contianer">
-		<image src="../../images/icon/share-detail.png"></image>
-		<image src="../../images/icon/collection-detail.png"></image>
+			<image src="../../images/icon/share-detail.png"></image>
+			<image src="../../images/icon/collection-detail.png"></image>
 		</view>
 		<view class="horizon"></view>
 	</view>
-	<text class="detail">这里是文章内容</text>
+  <text class="detail">{{detailData.detail}}</text>
 </view>

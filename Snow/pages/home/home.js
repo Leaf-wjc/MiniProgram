@@ -16,9 +16,9 @@ Page({
     this.setData({homeData:requireData.homeList})
   },
   onDetailTap: function (event) {//详情跳转方法
-    var newsId = event.currentTarget.dataset.listid;
+    var newsId = event.currentTarget.dataset.listid;//获取自定义属性
     wx.navigateTo({
-      url: '../news-detail/news-detail',
+      url: "../news-detail/news-detail?id=" + newsId
     })
     console.log(newsId);
   }
