@@ -8,5 +8,6 @@
     "navigationBarBackgroundColor": "#a8dbd7",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "余声"
-  }
+  },
+  "sitemapLocation": "sitemap1.json"
 }
