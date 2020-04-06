@@ -10,10 +10,11 @@
 	<text class="article-tit">{{detailData.article_tit}}</text>
 	<view class="wrap">
 		<view class="share-contianer">
-			<image src="../../images/icon/share-detail.png"></image>
-			<image src="../../images/icon/collection-detail.png"></image>
+			<image src="../../images/icon/share-detail.png" catchtap="onShareTap"></image>
+			<image wx:if="{{collected}}" src="../../images/icon/collection-detail.png" catchtap="onCollectTap"></image>
+			<image wx:else src="../../images/icon/collection-anti.png" catchtap="onCollectTap"></image>
 		</view>
 		<view class="horizon"></view>
 	</view>
-  <text class="detail">{{detailData.detail}}</text>
+	<text class="detail">{{detailData.detail}}</text>
 </view>

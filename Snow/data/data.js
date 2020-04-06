@@ -1,4 +1,4 @@
-var articleData = [
+var serviceData = [
   {
     author_img: '/images/author/author3.jpeg',
     author_date: 'Sep 18 2020',
@@ -44,5 +44,5 @@ var articleData = [
 ]
 
 module.exports = {
-  homeList: articleData
+  articleList: serviceData
 }

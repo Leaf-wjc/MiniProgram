@@ -13,13 +13,12 @@ Page({
     // setData中的数据必须是一个JS对象
     // this.setData({ article_list_data })ES6的语法
     // this.setData9({article_list_data})等同于下面的写法
-    this.setData({homeData:requireData.homeList})
+    this.setData({articleData:requireData.articleList})
   },
   onDetailTap: function (event) {//详情跳转方法
-    var newsId = event.currentTarget.dataset.listid;//获取自定义属性
+    var newsId = event.currentTarget.dataset.listid;//获取通过data-set属性自定义的属性
     wx.navigateTo({
       url: "../news-detail/news-detail?id=" + newsId
     })
-    console.log(newsId);
   }
 })
