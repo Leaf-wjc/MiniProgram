@@ -1,12 +1,12 @@
 {
   "pages": [
-    "pages/news-detail/news-detail",
-    "pages/welcome/welcome",
-    "pages/home/home"
 
+    "pages/welcome/welcome",
+    "pages/home/home",
+    "pages/news-detail/news-detail"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#A9CDD6",
+    "navigationBarBackgroundColor": "#a8dbd7",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "余声"
   }
