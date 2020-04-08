@@ -2,7 +2,8 @@
   "pages": [
     "pages/welcome/welcome",
     "pages/home/home",
-    "pages/news-detail/news-detail"
+    "pages/news-detail/news-detail",
+    "pages/UiFrame/uiFrame"
   ],
   "window": {
     "navigationBarBackgroundColor": "#a8dbd7",

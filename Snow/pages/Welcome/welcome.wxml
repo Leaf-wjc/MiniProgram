@@ -4,4 +4,8 @@
   <view class="moto-container" bind:tap="onTap">
     <text class="moto">开启余声之旅</text>
   </view>
+  <text class="select-or">你也可以参观</text>
+  <view class="ui-btn">
+  <text bindtap="onUiTap">Person's UI Frame</text>
+  </view>
 </view>

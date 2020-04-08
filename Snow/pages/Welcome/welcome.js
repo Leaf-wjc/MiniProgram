@@ -6,5 +6,10 @@ Page({
     wx.redirectTo({
       url: '../home/home'
     })
+  },
+  onUiTap: function (events){
+    wx.redirectTo({
+      url: '../UiFrame/uiFrame',
+    })
   }
 })

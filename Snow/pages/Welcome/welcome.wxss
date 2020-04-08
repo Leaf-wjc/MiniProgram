@@ -26,3 +26,18 @@
   font-size: 24rpx;
   font-weight: bold;
 }
+.select-or{
+  margin-top: 20rpx;
+  font-size: 20rpx;
+  color: rgba(224, 141, 86, 0.822);
+}
+.ui-btn{
+  line-height: 60rpx;
+  width: 240rpx;
+  color: #31b5a1;
+  border: 1px solid #31b5a1;
+  text-align: center;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
